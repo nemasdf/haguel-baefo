@@ -1,0 +1,9 @@
+ㄴㄴ
+1. data_pull_from_game.py 로 테이블 업데이트
+2. data_update.py 로 translation_final.json과 nontranslated.json 업데이트
+3. (필수X) 한국서버 스트링 추출->translation_final.json에 적용
+3-1. 변경점 발생 시 data_update.py로 nontranslated.json 업데이트
+4. nontranslated.json의 미번역 텍스트 번역 후 translation_final.json에 적용
+* AI 번역 이용 시 애가 원본 텍스트를 작살내는 경우가 있어서 적용이 안되는 경우가 가끔 발생함. nontranslated.json 파일에 손상이 없도록 별개의 파일을 만들고, 그 파일에 편집기의 json 병합 기능을 이용하여 번역이 다 적용되는지 확인해보고 적용 안된건 손수 옮겨넣고 최종적으로 nontranslated.json->translation_final.json 순서로 전달
+5. data_update.py 실행
+6. 테이블 배포
