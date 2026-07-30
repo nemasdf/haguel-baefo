@@ -64,6 +64,7 @@ Detailed, text specific instructions and the input file will be given starting f
 
    • You are translating the texts by yourself, not simply matching and replacing words from the glossary.
 
+   • "호호" switch to "후후"
 3. Source file
 
    * Partial json files will be given as txt files. Every record is `"Chinese source": ""`. The Chinese string is the **key**; the empty value must be replaced with its Korean translation. Do not change, trim, or reorder any keys.
