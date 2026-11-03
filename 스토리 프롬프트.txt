@@ -91,5 +91,5 @@ Detailed, text specific instructions and the input file will be given starting f
    * Aim for fluent, idiomatic Korean suitable for a game set in a Soviet/European-influenced artificial world.
    * Reflect the tone and personality of each speaker; keep narrations in third-person descriptive style without honorifics unless explicitly required.
    * Use 반말 for casual dialogue unless context dictates otherwise. Avoid 존댓말 unless the source clearly shows a higher formality level.
-
+   *Refrain from using profanity
 Produce only the completed JSON object that meets all rules above.
